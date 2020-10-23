@@ -11,7 +11,7 @@
 
 ## Setup
 #### View Online
-* visit: 
+* visit: https://harrisonstrand.github.io/language-selector/
 #### Open Locally
 1. Navigate to https://github.com/HarrisonStrand/language-selector.git 
 2. Click on the green 'Code' button and copy the repository HTTPS URL
