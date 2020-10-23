@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.5.1.js"></script>
   <script src="js/scripts.js"></script>
@@ -14,87 +14,93 @@
   </div>
   <div class="container">
     <div class="row">
-      <div class="questions">
-        <h3>Type question 1 here</h3>
+      <div class="col-md-4">
+        <div class="question-text">
+          <h3>Type question 1 here</h3>
+          <h3>type question 2 here</h3>
+          <h3>type question 4 here</h3>
+          <h3>type question 5 here</h3>
+        </div>
+      </div>
+      <div class="col-md-4">
+          <div class="question-buttons"
         <div class="question1">
-          <label>
-            <input type="radio" name="" value="">
-            Answer
-          </label>
-          <label>
-            <input type="radio" name="" value="">
-            Answer
-          </label>
-          <label>
-            <input type="radio" name="" value="">
-            Answer
-          </label>
-        </div>
-        <h3>type question 2 here</h3>
-        <div class="question2">
-          <label>
-            <input type="radio" name="" value="">
-            Answer
-          </label>
-          <label>
-            <input type="radio" name="" value="">
-            Answer
-          </label>
-          <label>
-            <input type="radio" name="" value="">
-            Answer
-          </label>
-        </div>
-        <h3>type question 3 here</h3>
-        <div class="question3">
-          <label>
-            <input type="radio" name="" value="">
-            Answer
-          </label>
-          <label>
-            <input type="radio" name="" value="">
-            Answer
-          </label>
-          <label>
-            <input type="radio" name="" value="">
-            Answer
-          </label>
-        </div>
-        <h3>type question 4 here</h3>
-        <div class="question4">
-          <label>
-            <input type="radio" name="" value="">
-            Answer
-          </label>
-          <label>
-            <input type="radio" name="" value="">
-            Answer
-          </label>
-          <label>
-            <input type="radio" name="" value="">
-            Answer
-          </label>
-        </div>
-        <h3>type question 5 here</h3>
-        <div class="question5">
-          <label>
-            <input type="radio" name="" value="">
-            Answer
-          </label>
-          <label>
-            <input type="radio" name="" value="">
-            Answer
-          </label>
-          <label>
-            <input type="radio" name="" value="">
-            Answer
-          </label>
+            <label>
+              <input type="radio" name="" value="">
+              Answer
+            </label>
+            <label>
+              <input type="radio" name="" value="">
+              Answer
+            </label>
+            <label>
+              <input type="radio" name="" value="">
+              Answer
+            </label>
+          </div>
+          <div class="question2">
+            <label>
+              <input type="radio" name="" value="">
+              Answer
+            </label>
+            <label>
+              <input type="radio" name="" value="">
+              Answer
+            </label>
+            <label>
+              <input type="radio" name="" value="">
+              Answer
+            </label>
+          </div>
+          <div class="question3">
+            <label>
+              <input type="radio" name="" value="">
+              Answer
+            </label>
+            <label>
+              <input type="radio" name="" value="">
+              Answer
+            </label>
+            <label>
+              <input type="radio" name="" value="">
+              Answer
+            </label>
+          </div>
+          <div class="question4">
+            <label>
+              <input type="radio" name="" value="">
+              Answer
+            </label>
+            <label>
+              <input type="radio" name="" value="">
+              Answer
+            </label>
+            <label>
+              <input type="radio" name="" value="">
+              Answer
+            </label>
+          </div>
+          <div class="question5">
+            <label>
+              <input type="radio" name="" value="">
+              Answer
+            </label>
+            <label>
+              <input type="radio" name="" value="">
+              Answer
+            </label>
+            <label>
+              <input type="radio" name="" value="">
+              Answer
+            </label>
+          </div>
+          <button class="resultbutton" id="submit">FIND MY CODING LANGUAGE</button>
+      </div>
+      <div class="col-md-4">
+        <div class="question-images">
         </div>
       </div>
     </div>
-  </div>
-  <div class="container">
-    <button class="resultbutton" id="submit">FIND MY CODING LANGUAGE</button>
   </div>
   <div class="container">
     <div class="row">
@@ -113,10 +119,13 @@
       </div>
       <div class="col-md-3">
         <div id="result-img">
+          <img src="img/csharp-logo.png" alt="C# logo">
         </div>
         <div id="result-img">
+          <img src="img/java.png" alt="javascript logo">
         </div>
         <div id="result-img">
+          <img src="img/ruby.png" alt="ruby logo">
         </div>
       </div>
       <div class="col-md-3">
