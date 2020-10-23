@@ -4,3 +4,9 @@ h1 {
 h2 {
   text-align: center;
 }
+#result-text1, #result-text2, #result-text3, #result-text4 {
+  display: none;
+}
+#result-img1, #result-img2, #result-img3, #result-img4 {
+  display: none;
+}
