@@ -4,6 +4,9 @@ h1 {
 h2 {
   text-align: center;
 }
+p {
+  text-align: center;
+}
 /* #result-text1, #result-text2, #result-text3, #result-text4 {
   display: none;
 }
