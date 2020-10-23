@@ -1,12 +1,34 @@
+body {
+  background: rgb(31,207,191);
+  background: linear-gradient(275deg, rgba(31,207,191,1) 0%, rgba(39,49,205,1) 62%, rgba(89,13,122,1) 100%);
+}
 h1 {
   text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 100px;
+  font-style:blue;
+  border-style: outset;
+  border-width: 10px;
 }
 h2 {
   text-align: center;
 }
 p {
   text-align: center;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+p2 {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p3 {
+  text-align: center;
+  font-size: 60px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 .cSharp, .java, .ruby, .go {
   display: none;
 }
@@ -14,5 +36,11 @@ label img {
   width: 200px;
   height: auto;
 }
-button {
-align-items: center;}
+#submit {
+text-align: center;
+font-size: 50px;
+}
+#result-img1 img, #result-img2 img, #result-img3 img, #result-img4 img {
+  width: 300px;
+  height: auto;
+}
