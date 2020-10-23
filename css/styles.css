@@ -21,6 +21,10 @@ h3 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 40px;
   text-align: center;
+  border-style: outset;
+  border-radius: 20px;
+  padding: 5px;
+
 }
 p, p2 {
   text-align: center;
@@ -35,6 +39,12 @@ p3 {
 
 .cSharp, .java, .ruby, .go {
   display: none;
+  background: rgb(255,0,0);
+  background: linear-gradient(275deg, rgba(255,0,0,1) 0%, rgba(255,173,0,1) 12%, rgba(248,255,0,1) 31%, rgba(67,255,0,1) 48%, rgba(0,217,255,1) 67%, rgba(113,0,255,1) 79%, rgba(255,0,204,1) 94%, rgba(242,86,86,1) 100%);
+  border-style: outset;
+  border-radius: 20px;
+  border-width: 15px;
+  padding: 10px;
 }
 label img {
   width: 200px;
